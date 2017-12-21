@@ -1,0 +1,3 @@
+C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Source\HyperFighters2\HyperFighters2.Build.cs
+C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Source\HyperFighters2.Target.cs
+C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Source\HyperFighters2Editor.Target.cs

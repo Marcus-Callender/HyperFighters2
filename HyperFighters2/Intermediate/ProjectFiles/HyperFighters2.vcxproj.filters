@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\HyperFighters2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{383BEC8C-909E-4151-AAB4-48A119239282}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HyperFighters2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\HyperFighters2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{22BFEE1B-7EF8-4FA4-8F32-F6EB221454EA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\HyperFighters2">
+			<UniqueIdentifier>{FD9C2217-3E20-4AF7-A041-088E0875294A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HyperFighters2\HyperFighters2.Build.cs">
+			<Filter>Source\HyperFighters2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\HyperFighters2\HyperFighters2.cpp">
+			<Filter>Source\HyperFighters2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HyperFighters2\HyperFighters2.h">
+			<Filter>Source\HyperFighters2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HyperFighters2\HyperFighters2Character.cpp">
+			<Filter>Source\HyperFighters2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HyperFighters2\HyperFighters2Character.h">
+			<Filter>Source\HyperFighters2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HyperFighters2\HyperFighters2GameMode.cpp">
+			<Filter>Source\HyperFighters2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HyperFighters2\HyperFighters2GameMode.h">
+			<Filter>Source\HyperFighters2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
