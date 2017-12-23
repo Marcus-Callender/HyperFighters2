@@ -1,0 +1,850 @@
+﻿Log file open, 12/21/17 15:38:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HyperFighters2
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(873050470) SRandInit(873050470).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.192504
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.21-15.38.52:574][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-15.38.52:575][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.21-15.38.52:662][  0]LogInit: Computer: MARCUSPC
+[2017.12.21-15.38.52:662][  0]LogInit: User: Marcus
+[2017.12.21-15.38.52:662][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.21-15.38.52:662][  0]LogInit: High frequency timer resolution =2.929689 MHz
+[2017.12.21-15.38.52:662][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.12.21-15.38.52:662][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.21-15.38.52:662][  0]LogMemory: Process Physical Memory: 279.71 MB used, 279.71 MB peak
+[2017.12.21-15.38.52:662][  0]LogMemory: Process Virtual Memory: 282.22 MB used, 282.22 MB peak
+[2017.12.21-15.38.52:662][  0]LogMemory: Physical Memory: 4022.60 MB used,  12313.83 MB free, 16336.43 MB total
+[2017.12.21-15.38.52:662][  0]LogMemory: Virtual Memory: 714.32 MB used,  12313.83 MB free, 134217728.00 MB total
+[2017.12.21-15.38.53:346][  0]LogInit: Using OS detected language (en-US).
+[2017.12.21-15.38.53:346][  0]LogInit: Using OS detected locale (en-GB).
+[2017.12.21-15.38.53:360][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.21-15.38.54:300][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.21-15.38.54:344][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.12.21-15.38.54:344][  0]LogD3D11RHI:       1987/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.21-15.38.54:347][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.21-15.38.54:347][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.21-15.38.54:347][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.21-15.38.54:351][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.21-15.38.54:351][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.21-15.38.54:351][  0]LogWindows: EnumDisplayDevices:
+[2017.12.21-15.38.54:351][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.12.21-15.38.54:351][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2017.12.21-15.38.54:351][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.12.21-15.38.54:351][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.12.21-15.38.54:351][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.21-15.38.54:352][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.12.21-15.38.54:352][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.21-15.38.54:352][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.21-15.38.54:352][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.21-15.38.54:372][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.21-15.38.54:382][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.21-15.38.54:384][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Intermediate/Shaders/WorkingDirectory/528/).
+[2017.12.21-15.38.54:385][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/EE1B1ECC43F7D763A320EAA5227EFCD9/'.
+[2017.12.21-15.38.54:385][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.21-15.38.55:633][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.21-15.38.55:807][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.21-15.38.55:980][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.21-15.38.56:154][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.21-15.38.56:327][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.21-15.38.56:502][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.21-15.38.56:676][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.21-15.38.56:851][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.21-15.38.57:017][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.21-15.38.57:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.21-15.38.57:364][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.21-15.38.57:535][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.21-15.38.57:709][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.21-15.38.57:881][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.21-15.38.58:053][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.21-15.38.58:389][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.21-15.38.58:389][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.21-15.38.58:545][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.21-15.38.58:821][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.21-15.38.58:919][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.21-15.38.59:088][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.21-15.38.59:258][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.21-15.38.59:435][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.21-15.38.59:606][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.21-15.38.59:606][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.21-15.39.01:576][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.21-15.39.01:649][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-15.39.01:650][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.21-15.39.01:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.21-15.39.01:650][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.21-15.39.01:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.21-15.39.01:650][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.21-15.39.01:665][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.21-15.39.01:678][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.21-15.39.01:687][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.21-15.39.01:688][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.21-15.39.01:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-15.39.01:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-15.39.02:012][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.12.21-15.39.02:252][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-15.39.02:430][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.21-15.39.03:447][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.21-15.39.03:624][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.21-15.39.03:624][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.21-15.39.03:624][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.21-15.39.03:624][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.21-15.39.03:624][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.21-15.39.04:145][  0]LogNetVersion: HyperFighters2 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1743889662)
+[2017.12.21-15.39.04:617][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.069533 seconds
+[2017.12.21-15.39.04:623][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.21-15.39.04:623][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.21-15.39.04:623][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.21-15.39.04:910][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.21-15.39.12:008][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.21-15.39.12:132][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.21-15.39.14:476][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.21-15.39.15:799][  0]SourceControl: Source control is disabled
+[2017.12.21-15.39.15:799][  0]SourceControl: Source control is disabled
+[2017.12.21-15.39.15:984][  0]SourceControl: Source control is disabled
+[2017.12.21-15.39.16:169][  0]SourceControl: Source control is disabled
+[2017.12.21-15.39.18:433][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.21-15.39.19:337][  0]LogOcInput: OculusInput pre-init called
+[2017.12.21-15.39.20:220][  0]LogEngine: Initializing Engine...
+[2017.12.21-15.39.20:222][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.21-15.39.20:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.21-15.39.20:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.21-15.39.20:954][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.21-15.39.20:960][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-15.39.20:977][  0]LogInit: FAudioDevice initialized.
+[2017.12.21-15.39.21:570][  0]LogDerivedDataCache: Saved boot cache 0.59s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-15.39.21:582][  0]LogInit: Texture streaming: Enabled
+[2017.12.21-15.39.22:110][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.21-15.39.22:969][  0]LogInit: Transaction tracking system initialized
+[2017.12.21-15.39.24:249][  0]BlueprintLog: New page: Editor Load
+[2017.12.21-15.39.27:881][  0]LocalizationService: Localization service is disabled
+[2017.12.21-15.39.30:588][  0]LogConsoleResponse: Display: 
+[2017.12.21-15.39.30:900][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.21-15.39.30:900][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.21-15.39.30:901][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.21-15.39.31:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/' took 0.02s
+[2017.12.21-15.39.35:022][  0]SourceControl: Source control is disabled
+[2017.12.21-15.39.35:022][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.21-15.39.35:022][  0]LightingResults: New page: Lighting Build
+[2017.12.21-15.39.35:187][  0]MapCheck: New page: Map Check
+[2017.12.21-15.39.35:187][  0]LightingResults: New page: Lighting Build
+[2017.12.21-15.39.35:295][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.21-15.39.35:299][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.21-15.39.35:309][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.21-15.39.35:441][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131.752ms to complete.
+[2017.12.21-15.39.35:441][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.419
+[2017.12.21-15.39.35:501][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-15.39.35:874][  0]LogCollectionManager: Loaded 0 collections in 0.002097 seconds
+[2017.12.21-15.39.36:080][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/Collections/' took 0.01s
+[2017.12.21-15.39.36:080][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Developers/Marcus/Collections/' took 0.01s
+[2017.12.21-15.39.36:080][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Collections/' took 0.01s
+[2017.12.21-15.39.36:080][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.21-15.39.36:090][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2389 classes and 504 folders.
+[2017.12.21-15.39.36:354][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2017.12.21-15.39.36:445][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2017.12.21-15.39.37:492][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-15.39.37:497][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.21-15.39.37:504][  0]LogSlate: Took 0.003761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.21-15.39.37:626][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.HyperFighters2
+[2017.12.21-15.39.37:626][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-15.39.37:626][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.12.21-15.39.37:626][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-15.39.37:626][  0]LogTemp: BranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.21-15.39.37:626][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcus\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.21-15.39.37:626][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.21-15.39.37:920][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0030 seconds. Added 1 classes and 2 folders.
+[2017.12.21-15.39.37:920][  0]LogLoad: (Engine Initialization) Total time: 49.63 seconds
+[2017.12.21-15.39.37:920][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.21-15.39.37:920][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.21-15.39.37:920][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.21-15.39.37:953][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.21-15.39.37:985][  0]LogSlate: Took 0.002483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-15.39.37:995][  1]LogAssetRegistry: Asset discovery search completed in 36.0065 seconds
+[2017.12.21-15.39.37:997][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.21-15.39.37:997][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2017.12.21-15.39.38:944][111]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-15.47.09:246][112]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-15.47.14:750][275]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.21-15.47.18:313][276]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Source/HyperFighters2/HyperFighters2Character.h'
+[2017.12.21-15.47.18:718][276]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Source/HyperFighters2/HyperFighters2Character.cpp'
+[2017.12.21-15.48.00:960][278]Cmd: TRANSACTION UNDO
+[2017.12.21-15.48.00:960][278]LogEditorTransaction: Undo Set actor location
+[2017.12.21-15.48.01:430][330]Cmd: TRANSACTION UNDO
+[2017.12.21-15.48.01:430][330]LogEditorTransaction: Undo Set Actor Visibility
+[2017.12.21-15.48.02:196][419]Cmd: TRANSACTION UNDO
+[2017.12.21-15.48.02:197][419]LogEditorTransaction: Undo Set Actor Visibility
+[2017.12.21-15.48.03:841][614]Cmd: TRANSACTION UNDO
+[2017.12.21-15.48.03:841][614]LogEditorTransaction: Undo Set Actor Visibility
+[2017.12.21-15.48.07:453][ 42]LogEditorViewport: Clicking on Actor (LMB): BP_2DSideScrollerCharacter_C (TP_2DSideScrollerCharacter)
+[2017.12.21-15.48.18:007][232]LogEditorViewport: Clicking on Actor (LMB): BP_2DSideScrollerCharacter_C (TP_2DSideScrollerCharacter2)
+[2017.12.21-15.48.29:861][563]LogSavePackage: Save=60.68ms
+[2017.12.21-15.48.29:861][563]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap0A70F58C47654AFEF08DA59FD228147D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.12.21-15.48.29:868][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.12.21-15.48.29:928][563]LogSavePackage: Save=2.55ms
+[2017.12.21-15.48.29:928][563]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap_BuiltDataCB96DA7946A4E8CC919561BE5B94C02E.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.12.21-15.48.29:931][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.12.21-15.51.39:247][739]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.21-15.52.33:015][635]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe HyperFighters2 Win64 Development -editorrecompile "C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/HyperFighters2.uproject" -invalidatemakefilesonly
+[2017.12.21-15.52.33:321][635]Invalidating makefiles only in this run.
+[2017.12.21-15.52.33:503][635]LogVSAccessor: Warning: Couldn't save all documents
+[2017.12.21-15.52.33:510][635]Candidate modules for hot reload:
+[2017.12.21-15.52.33:510][635]  HyperFighters2
+[2017.12.21-15.52.33:510][635]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe HyperFighters2 -ModuleWithSuffix HyperFighters2 6552 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/HyperFighters2.uproject" ]
+[2017.12.21-15.52.34:244][635]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: New page: Compilation - 21 Dec 2017 15:53:01
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: Parsing headers for HyperFighters2Editor
+[2017.12.21-15.53.01:031][635]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\HyperFighters2.uproject" "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\HyperFighters2Editor\Development\HyperFighters2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: Reflection code generated for HyperFighters2Editor in 8.7859114 seconds
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: HyperFighters2.init.gen.cpp
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: CharicterController.gen.cpp
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: CharicterController.cpp
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: [4/5] Link UE4Editor-HyperFighters2-6552.dll
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: [5/5] Link UE4Editor-HyperFighters2-6552.lib
+[2017.12.21-15.53.01:031][635]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6552.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6552.exp
+[2017.12.21-15.53.01:031][635]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6552.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6552.suppressed.exp
+[2017.12.21-15.53.01:031][635]CompilerResultsLog: Total build time: 27.31 seconds (Local executor: 7.29 seconds)
+[2017.12.21-15.53.01:031][635]LogMainFrame: MainFrame: Module compiling took 27.528 seconds
+[2017.12.21-15.53.01:552][635]LogClass: Could not find existing class CharicterController in package /Script/HyperFighters2 for HotReload, assuming new class
+[2017.12.21-15.53.01:555][635]LogHotReload: Re-instancing HyperFighters2Character after hot-reload.
+[2017.12.21-15.53.01:896][635]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0034 seconds. Added 3 classes and 2 folders.
+[2017.12.21-15.53.01:898][635]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-15.53.01:960][635]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-15.53.01:960][635]Display: HotReload took 28.5s.
+[2017.12.21-15.53.01:962][635]Warning: HotReload operation took 28.5s.
+[2017.12.21-15.53.02:056][635]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Source/HyperFighters2/CharicterController.h'
+[2017.12.21-15.53.02:167][635]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Source/HyperFighters2/CharicterController.cpp'
+[2017.12.21-15.53.02:182][635]LogHotReload: New module detected: UE4Editor-HyperFighters2-6552.dll
+[2017.12.21-15.53.02:279][636]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.21-15.53.02:508][636]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0032 seconds. Added 3 classes and 2 folders.
+[2017.12.21-15.53.02:509][636]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-15.53.02:523][636]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-15.53.02:528][636]Display: HotReload took  0.2s.
+[2017.12.21-15.54.02:456][301]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0032 seconds. Added 113 classes and 0 folders.
+[2017.12.21-15.54.03:294][301]LogRenderer: Reallocating scene render targets to support 1208x940 Format 10 NumSamples 1 (Frame:1).
+[2017.12.21-15.54.17:173][727]LogSavePackage: Save=63.39ms
+[2017.12.21-15.54.17:173][727]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap5F64B22F48819841C9E88FBFD0F8E5C6.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.12.21-15.54.17:176][727]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.12.21-15.54.17:239][727]LogSavePackage: Save=2.23ms
+[2017.12.21-15.54.17:239][727]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap_BuiltDataAD35D5E54F7787F345FFC981C1BA9F89.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.12.21-15.54.17:242][727]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.BP_HyperFighters2GameMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.SKEL_BP_HyperFighters2GameMode_C:DefaultSceneRoot' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.SKEL_BP_HyperFighters2GameMode_C:UserConstructionScript' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.SKEL_BP_HyperFighters2GameMode_C' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.BP_HyperFighters2GameMode_C:DefaultSceneRoot' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.BP_HyperFighters2GameMode_C:UserConstructionScript' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.BP_HyperFighters2GameMode_C' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.BP_HyperFighters2GameMode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:624][991]LogMetaData: Removing '/Game/Blueprints/BP_HyperFighters2GameMode.BP_HyperFighters2GameMode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_HyperFighters2GameMode.PackageMetaData'
+[2017.12.21-15.54.19:657][991]LogSavePackage: Save=12.54ms
+[2017.12.21-15.54.19:657][991]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/BP_HyperFighters2GameModeE5862F944E4CC761932AFAAF6D9B4395.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Blueprints/BP_HyperFighters2GameMode.uasset'
+[2017.12.21-15.54.19:664][991]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Blueprints/BP_HyperFighters2GameMode.uasset
+[2017.12.21-15.57.28:003][758]LogHotReload: New module detected: UE4Editor-HyperFighters2-212.dll
+[2017.12.21-15.57.28:685][761]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.21-15.57.28:902][761]LogClass: Could not find existing class CharicterController in package /Script/HyperFighters2 for HotReload, assuming new class
+[2017.12.21-15.57.28:908][761]LogHotReload: Re-instancing CharicterController after hot-reload.
+[2017.12.21-15.57.28:977][761]LogHotReload: Re-instancing HyperFighters2Character after hot-reload.
+[2017.12.21-15.57.29:433][761]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0035 seconds. Added 3 classes and 2 folders.
+[2017.12.21-15.57.29:436][761]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-15.57.29:701][761]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-15.57.29:708][761]Display: HotReload took  1.0s.
+[2017.12.21-16.05.33:250][958]LogHotReload: New module detected: UE4Editor-HyperFighters2-8910.dll
+[2017.12.21-16.05.33:936][961]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.21-16.05.34:216][961]LogClass: Could not find existing class CharicterController in package /Script/HyperFighters2 for HotReload, assuming new class
+[2017.12.21-16.05.34:222][961]LogHotReload: Re-instancing CharicterController after hot-reload.
+[2017.12.21-16.05.34:306][961]LogHotReload: Re-instancing HyperFighters2Character after hot-reload.
+[2017.12.21-16.05.34:812][961]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0034 seconds. Added 3 classes and 2 folders.
+[2017.12.21-16.05.34:814][961]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-16.05.35:081][961]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-16.05.35:088][961]Display: HotReload took  1.2s.
+[2017.12.21-16.16.56:480][251]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.21-16.17.30:691][315]Candidate modules for hot reload:
+[2017.12.21-16.17.30:691][315]  HyperFighters2
+[2017.12.21-16.17.30:692][315]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe HyperFighters2 -ModuleWithSuffix HyperFighters2 6343 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/HyperFighters2.uproject" ]
+[2017.12.21-16.17.30:697][315]Warning: Starting HotReload took  0.0s.
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: New page: Compilation - 21 Dec 2017 16:17:57
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: Parsing headers for HyperFighters2Editor
+[2017.12.21-16.17.57:114][481]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\HyperFighters2.uproject" "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\HyperFighters2Editor\Development\HyperFighters2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: Reflection code generated for HyperFighters2Editor in 9.825704 seconds
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: HyperFighters2.init.gen.cpp
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: CharicterController.gen.cpp
+[2017.12.21-16.17.57:114][481]CompilerResultsLog: CharicterController.cpp
+[2017.12.21-16.17.57:115][481]CompilerResultsLog: [4/5] Link UE4Editor-HyperFighters2-6343.dll
+[2017.12.21-16.17.57:115][481]CompilerResultsLog: [5/5] Link UE4Editor-HyperFighters2-6343.lib
+[2017.12.21-16.17.57:115][481]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6343.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6343.exp
+[2017.12.21-16.17.57:115][481]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6343.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-6343.suppressed.exp
+[2017.12.21-16.17.57:115][481]CompilerResultsLog: Total build time: 26.13 seconds (Local executor: 4.15 seconds)
+[2017.12.21-16.17.57:115][481]LogMainFrame: MainFrame: Module compiling took 26.430 seconds
+[2017.12.21-16.17.57:366][481]LogClass: Could not find existing class CharicterController in package /Script/HyperFighters2 for HotReload, assuming new class
+[2017.12.21-16.17.57:372][481]LogHotReload: Re-instancing CharicterController after hot-reload.
+[2017.12.21-16.17.57:460][481]LogHotReload: Re-instancing HyperFighters2Character after hot-reload.
+[2017.12.21-16.17.57:812][481]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0034 seconds. Added 3 classes and 2 folders.
+[2017.12.21-16.17.57:815][481]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-16.17.58:073][481]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-16.17.58:073][481]Display: HotReload took 27.4s.
+[2017.12.21-16.18.35:054][869]LogActor: Warning: BP_CharicterController_C /Engine/Transient.World_3:PersistentLevel.BP_CharicterController_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.21-16.18.40:161][205]LogSavePackage: Save=63.15ms
+[2017.12.21-16.18.40:161][205]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap0A1E51BC4BB687C034BCC9AA60E6979F.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.12.21-16.18.40:165][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.12.21-16.18.40:230][205]LogSavePackage: Save=2.25ms
+[2017.12.21-16.18.40:231][205]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap_BuiltData248850E2444AECE55B87B1B99606E8D2.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.12.21-16.18.40:234][205]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.12.21-16.18.41:767][377]LogActor: Warning: BP_CharicterController_C /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_CharicterController_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.21-16.18.42:885][480]LogActor: Warning: BP_CharicterController_C /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_CharicterController_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.21-16.18.49:224][ 34]LogSavePackage: Save=65.52ms
+[2017.12.21-16.18.49:225][ 34]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap92ACA3044D1DEA65CBDE3C852B58C39E.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.12.21-16.18.49:230][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.12.21-16.18.49:289][ 34]LogSavePackage: Save=2.23ms
+[2017.12.21-16.18.49:289][ 34]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap_BuiltDataD2E4EFDB46E3B104173A18BDFD8726B2.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.12.21-16.18.49:292][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.12.21-16.18.52:171][291]LogSavePackage: Save=15.32ms
+[2017.12.21-16.18.52:171][291]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/BP_CharicterController79D511814628A990ACD2DE8D1F7B7738.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Blueprints/BP_CharicterController.uasset'
+[2017.12.21-16.18.52:178][291]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Blueprints/BP_CharicterController.uasset
+[2017.12.21-16.18.57:520][900]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-16.18.57:802][900]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.18.57:802][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.21-16.18.57:802][900]PIE: New page: PIE session: 2DSideScrollerExampleMap (21 Dec 2017 16:18:57)
+[2017.12.21-16.18.57:803][900]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.21-16.18.57:806][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003141s)
+[2017.12.21-16.18.57:806][900]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.21-16.18.57:806][900]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2017.12.21-16.18.57:807][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004208s)
+[2017.12.21-16.18.57:853][900]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-16.18.57:860][900]LogInit: FAudioDevice initialized.
+[2017.12.21-16.18.57:906][900]LogLoad: Game class is 'HyperFighters2GameMode'
+[2017.12.21-16.18.57:909][900]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.21-16.18.57
+[2017.12.21-16.18.57:975][900]LogWorld: Bringing up level for play took: 0.067114
+[2017.12.21-16.18.58:172][900]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0031 seconds. Added 11 classes and 0 folders.
+[2017.12.21-16.18.58:173][900]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.017
+[2017.12.21-16.18.58:173][900]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.19.00:404][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.19.00:488][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.19.02:486][389]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-16.19.02:498][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.19.02:499][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.21-16.19.02:499][389]PIE: New page: PIE session: 2DSideScrollerExampleMap (21 Dec 2017 16:19:02)
+[2017.12.21-16.19.02:499][389]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.21-16.19.02:502][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002815s)
+[2017.12.21-16.19.02:502][389]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.21-16.19.02:502][389]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.12.21-16.19.02:503][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003768s)
+[2017.12.21-16.19.02:547][389]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-16.19.02:553][389]LogInit: FAudioDevice initialized.
+[2017.12.21-16.19.02:587][389]LogLoad: Game class is 'HyperFighters2GameMode'
+[2017.12.21-16.19.02:590][389]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.21-16.19.02
+[2017.12.21-16.19.02:590][389]LogWorld: Bringing up level for play took: 0.001440
+[2017.12.21-16.19.02:591][389]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.401
+[2017.12.21-16.19.02:591][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.19.08:882][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.19.08:962][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.20.26:445][389]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-16.20.26:458][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.20.26:458][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.21-16.20.26:458][389]PIE: New page: PIE session: 2DSideScrollerExampleMap (21 Dec 2017 16:20:26)
+[2017.12.21-16.20.26:459][389]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.21-16.20.26:462][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
+[2017.12.21-16.20.26:463][389]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.21-16.20.26:463][389]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2017.12.21-16.20.26:463][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004548s)
+[2017.12.21-16.20.26:509][389]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-16.20.26:515][389]LogInit: FAudioDevice initialized.
+[2017.12.21-16.20.26:550][389]LogLoad: Game class is 'HyperFighters2GameMode'
+[2017.12.21-16.20.26:552][389]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.21-16.20.26
+[2017.12.21-16.20.26:552][389]LogWorld: Bringing up level for play took: 0.001828
+[2017.12.21-16.20.26:553][389]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.363
+[2017.12.21-16.20.26:553][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.20.28:386][607]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.20.28:465][607]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.20.41:116][790]Cmd: TRANSACTION UNDO
+[2017.12.21-16.20.41:116][790]LogEditorTransaction: Undo Delete selection
+[2017.12.21-16.21.17:241][646]LogEditorActor: Deleted Actor: BP_2DSideScrollerCharacter_C
+[2017.12.21-16.21.17:256][646]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.12.21-16.21.20:250][982]LogEditorActor: Deleted Actor: BP_2DSideScrollerCharacter_C
+[2017.12.21-16.21.20:266][982]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.12.21-16.21.27:214][816]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.27:214][816]LogEditorTransaction: Undo Delete selection
+[2017.12.21-16.21.27:215][816]LogActorComponent: ~FComponentReregisterContext: (/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Ledge_9.RenderComponent) Component already registered.
+[2017.12.21-16.21.29:996][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.12.21-16.21.29:996][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.12.21-16.21.29:997][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.12.21-16.21.29:997][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.12.21-16.21.29:997][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.12.21-16.21.29:998][138]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.12.21-16.21.30:012][138]LogEditorActor: Deleted 6 Actors (0.017 secs)
+[2017.12.21-16.21.35:446][790]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-16.21.35:459][790]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.21.35:459][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.21-16.21.35:459][790]PIE: New page: PIE session: 2DSideScrollerExampleMap (21 Dec 2017 16:21:35)
+[2017.12.21-16.21.35:459][790]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.21-16.21.35:462][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002372s)
+[2017.12.21-16.21.35:462][790]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.21-16.21.35:463][790]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.12.21-16.21.35:463][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003568s)
+[2017.12.21-16.21.35:480][790]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-16.21.35:486][790]LogInit: FAudioDevice initialized.
+[2017.12.21-16.21.35:520][790]LogLoad: Game class is 'HyperFighters2GameMode'
+[2017.12.21-16.21.35:522][790]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.21-16.21.35
+[2017.12.21-16.21.35:522][790]LogWorld: Bringing up level for play took: 0.001482
+[2017.12.21-16.21.35:589][790]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.601
+[2017.12.21-16.21.35:589][790]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.21.41:894][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.21.41:926][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.21-16.21.43:079][679]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.43:079][679]LogEditorTransaction: Undo Delete selection
+[2017.12.21-16.21.43:369][712]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.43:369][712]LogEditorTransaction: Undo Delete selection
+[2017.12.21-16.21.44:064][787]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.44:064][787]LogEditorTransaction: Undo Clicking on Actors
+[2017.12.21-16.21.44:913][883]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.44:914][883]LogEditorTransaction: Undo Clicking on Actors
+[2017.12.21-16.21.45:372][937]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.45:372][937]LogEditorTransaction: Undo Set Actor Visibility
+[2017.12.21-16.21.46:028][ 14]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.46:028][ 14]LogEditorTransaction: Undo Delete selection
+[2017.12.21-16.21.46:619][ 66]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.46:619][ 66]LogEditorTransaction: Undo Clicking on Actors
+[2017.12.21-16.21.47:098][119]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.47:098][119]LogEditorTransaction: Undo Delete selection
+[2017.12.21-16.21.47:803][182]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.47:803][182]LogEditorTransaction: Undo Clicking on Actors
+[2017.12.21-16.21.48:725][266]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.48:725][266]LogEditorTransaction: Undo Set Actor Visibility
+[2017.12.21-16.21.49:371][337]Cmd: TRANSACTION UNDO
+[2017.12.21-16.21.49:371][337]LogEditorTransaction: Undo Set Actor Visibility
+[2017.12.21-16.21.50:603][459]LogSavePackage: Save=64.26ms
+[2017.12.21-16.21.50:603][459]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMapBE8D8D334621D11D8C424C8126498152.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.12.21-16.21.50:610][459]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.12.21-16.21.50:683][459]LogSavePackage: Save=2.45ms
+[2017.12.21-16.21.50:683][459]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/2DSideScrollerExampleMap_BuiltData94B34205454ECB77AB731D99768D6990.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.12.21-16.21.50:687][459]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.12.21-16.24.15:180][ 35]LogHotReload: New module detected: UE4Editor-HyperFighters2-609.dll
+[2017.12.21-16.24.16:190][ 39]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.21-16.24.16:418][ 39]LogHotReload: Re-instancing HyperFighters2Character after hot-reload.
+[2017.12.21-16.24.16:692][ 39]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0033 seconds. Added 3 classes and 2 folders.
+[2017.12.21-16.24.16:694][ 39]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-16.24.16:963][ 39]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-16.24.16:969][ 39]Display: HotReload took  0.8s.
+[2017.12.21-16.31.06:981][820]Candidate modules for hot reload:
+[2017.12.21-16.31.06:981][820]  HyperFighters2
+[2017.12.21-16.31.06:981][820]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe HyperFighters2 -ModuleWithSuffix HyperFighters2 4902 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/HyperFighters2.uproject" ]
+[2017.12.21-16.31.06:986][820]Warning: Starting HotReload took  0.0s.
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: New page: Compilation - 21 Dec 2017 16:31:33
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: Parsing headers for HyperFighters2Editor
+[2017.12.21-16.31.33:710][979]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\HyperFighters2.uproject" "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\HyperFighters2Editor\Development\HyperFighters2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: Reflection code generated for HyperFighters2Editor in 10.4949132 seconds
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: CharicterController.gen.cpp
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: CharicterController.cpp
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: [3/4] Link UE4Editor-HyperFighters2-4902.dll
+[2017.12.21-16.31.33:710][979]CompilerResultsLog: [4/4] Link UE4Editor-HyperFighters2-4902.lib
+[2017.12.21-16.31.33:710][979]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-4902.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-4902.exp
+[2017.12.21-16.31.33:711][979]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-4902.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-4902.suppressed.exp
+[2017.12.21-16.31.33:711][979]CompilerResultsLog: Total build time: 26.46 seconds (Local executor: 3.10 seconds)
+[2017.12.21-16.31.33:711][979]LogMainFrame: MainFrame: Module compiling took 26.737 seconds
+[2017.12.21-16.31.33:939][979]LogHotReload: Re-instancing HyperFighters2Character after hot-reload.
+[2017.12.21-16.31.34:284][979]LogContentBrowser: Native class hierarchy updated for 'HyperFighters2' in 0.0032 seconds. Added 3 classes and 2 folders.
+[2017.12.21-16.31.34:286][979]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.21-16.31.34:535][979]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2391 classes and 506 folders.
+[2017.12.21-16.31.34:535][979]Display: HotReload took 27.6s.
+[2017.12.21-16.33.52:936][112]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-16.33.53:223][113]Cmd: QUIT_EDITOR
+[2017.12.21-16.33.54:253][113]LogExit: Preparing to exit.
+[2017.12.21-16.33.55:376][113]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/' was aborted.
+[2017.12.21-16.33.55:401][113]LogExit: Editor shut down
+[2017.12.21-16.33.55:409][113]LogExit: Transaction tracking system shut down
+[2017.12.21-16.33.55:556][113]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.21-16.33.55:556][113]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/' was aborted.
+[2017.12.21-16.33.55:557][113]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.21-16.33.55:557][113]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.21-16.33.55:557][113]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.21-16.33.55:628][113]LogExit: Object subsystem successfully closed.
+[2017.12.21-16.33.55:649][113]LogD3D11RHI: Shutdown
+[2017.12.21-16.33.55:649][113]LogD3D11RHI: CleanupD3DDevice
+[2017.12.21-16.33.55:709][113]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module HyperFighters2 (547)
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (545)
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (534)
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2017.12.21-16.33.55:763][113]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2017.12.21-16.33.55:764][113]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.21-16.33.55:764][113]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2017.12.21-16.33.55:764][113]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2017.12.21-16.33.55:764][113]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.12.21-16.33.55:765][113]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Collections/' was aborted.
+[2017.12.21-16.33.55:765][113]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Content/Developers/Marcus/Collections/' was aborted.
+[2017.12.21-16.33.55:765][113]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Saved/Collections/' was aborted.
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.12.21-16.33.55:765][113]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.12.21-16.33.55:766][113]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.12.21-16.33.56:705][113]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.12.21-16.33.56:706][113]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.12.21-16.33.56:760][113]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.12.21-16.33.56:771][113]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.12.21-16.33.56:772][113]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.12.21-16.33.56:772][113]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.12.21-16.33.56:772][113]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.12.21-16.33.56:772][113]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.12.21-16.33.56:772][113]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.12.21-16.33.56:772][113]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.12.21-16.33.56:773][113]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.12.21-16.33.56:981][113]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.12.21-16.33.56:982][113]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.12.21-16.33.56:984][113]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.12.21-16.33.56:984][113]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.12.21-16.33.56:984][113]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.12.21-16.33.56:984][113]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Documents/GitHub/HyperFighters2/HyperFighters2/Binaries/Win64' was aborted.
+[2017.12.21-16.33.56:985][113]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.21-16.33.56:985][113]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.21-16.33.56:985][113]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.21-16.33.56:986][113]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.21-16.33.56:986][113]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.21-16.33.56:986][113]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.21-16.33.56:986][113]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.21-16.33.56:986][113]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.21-16.33.57:086][113]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.21-16.33.57:186][113]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.21-16.33.57:186][113]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.21-16.33.57:186][113]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.21-16.33.57:186][113]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.21-16.33.57:186][113]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.21-16.33.57:186][113]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.21-16.33.57:188][113]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.21-16.33.57:188][113]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.21-16.33.57:188][113]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.21-16.33.57:188][113]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.21-16.33.57:193][113]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.21-16.33.57:194][113]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.21-16.33.57:204][113]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.21-16.33.57:205][113]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.21-16.33.57:205][113]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.21-16.33.57:205][113]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.21-16.33.57:207][113]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.21-16.33.57:236][113]LogDerivedDataCache: Shutdown
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.21-16.33.57:236][113]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.21-16.33.57:237][113]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.21-16.33.57:238][113]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.21-16.33.57:239][113]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.21-16.33.57:239][113]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.21-16.33.57:239][113]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.21-16.33.57:239][113]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10CEBEB7-44E7-29A9-EBA0-0FA2FB06F545%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=97d3f40d403ff4a258d6f980a741b4dc%7C969837ba78db4a5a8b4180254925176e%7C81706c51-5e4d-4c53-8181-bc8c50ced6a7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.21-16.33.57:261][113]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.21-16.33.57:263][113]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.21-16.33.57:264][113]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.21-16.33.57:264][113]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.21-16.33.57:264][113]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.21-16.33.57:264][113]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.21-16.33.57:264][113]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.21-16.33.57:264][113]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.21-16.33.57:267][113]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.21-16.33.57:274][113]LogExit: Exiting.
+[2017.12.21-16.33.57:302][113]Log file closed, 12/21/17 16:33:57

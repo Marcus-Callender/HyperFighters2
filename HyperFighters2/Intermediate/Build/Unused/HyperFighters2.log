@@ -1,0 +1,12 @@
+﻿  Compiling game modules for hot reload
+  Parsing headers for HyperFighters2Editor
+    Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\HyperFighters2.uproject" "C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\HyperFighters2Editor\Development\HyperFighters2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HyperFighters2Editor in 8.1957349 seconds
+  Performing 3 actions (4 in parallel)
+  CharicterController.cpp
+  [2/3] Link UE4Editor-HyperFighters2-8912.dll
+  [3/3] Link UE4Editor-HyperFighters2-8912.lib
+     Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-8912.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-8912.exp
+     Creating library C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-8912.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\HyperFighters2\HyperFighters2\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HyperFighters2-8912.suppressed.exp
+  Deploying HyperFighters2Editor Win64 Development...
+  Total build time: 21.45 seconds (Local executor: 2.46 seconds)
